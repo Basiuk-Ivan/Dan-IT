@@ -1,0 +1,122 @@
+.third-page_background {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/parallax-bg.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 172px;
+    padding-bottom: 172px;
+}
+
+.third-page_header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 72px;
+}
+
+.third-page_header-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.third-page_header-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #e4b564;
+    padding: 10px 40px;
+    border: 1px solid #e4b564;
+}
+
+.third-page_grid-body {
+    display: grid;
+    grid-template-columns: repeat(3, 487px);
+    grid-template-rows: repeat(2, 391px);
+    justify-content: center;
+}
+
+.third-page_grid-item {
+    text-align: center;
+    padding-top: 185px;
+}
+
+.third-page_grid-item_1 {
+    background: #634f2c;
+}
+
+.third-page_grid-item_2 {
+    background: rgba(232, 210, 171, 0.76);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.third-page_grid-item_2-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+    width: 326px;
+}
+
+.third-page_grid-item_2-text-s {
+    font-weight: 400;
+}
+
+.third-page_grid-item_3 {
+    background: #e4b564;
+}
+
+.third-page_grid-item_4 {
+    background: #635a4a;
+}
+
+.third-page_grid-item_5 {
+    background: #b08c4d;
+}
+
+.third-page_grid-item_6 {
+    background: #634f2c;
+}
+
+.third-page_grid-item__img-1 {
+    width: 185px;
+    height: 49px;
+}
+
+.third-page_grid-item__img-2 {
+    width: 62px;
+    height: 55px;
+}
+
+.third-page_grid-item__img-2-2 {
+    width: 139px;
+    height: 55px;
+}
+
+.third-page_grid-item__img-3 {
+    width: 190px;
+    height: 42px;
+}
+
+.third-page_grid-item__img-4 {
+    width: 190px;
+    height: 42px;
+}
+
+.third-page_grid-item__img-5 {
+    width: 119px;
+    height: 53px;
+}
+
+.third-page_grid-item__img-6 {
+    width: 185px;
+    height: 49px;
+}
