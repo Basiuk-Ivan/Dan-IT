@@ -1,0 +1,45 @@
+@import url("./reset.css");
+
+
+body {
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+
+.block {
+   perspective: 450px;
+}
+
+.wrap {
+   width: 650px;
+   height: 700px;
+   transform: rotate3d(15, 0, 0, 45deg);
+   color: rgba(236, 214, 22, 0.892);
+   font-size: 40px;
+
+}
+
+.text {
+   animation-name: textMov;
+   animation-duration: 30s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+
+.paragraph {
+   text-align: center;
+}
+
+@keyframes textMov {
+   0% {
+      transform: translateY(520px);
+   }
+
+   100% {
+      transform: translateY(-500px);
+      /* opacity: 0; */
+   }
+}
