@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+            crossorigin="anonymous"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./index.css" />
+        <title>Homework-buttons</title>
+    </head>
+    <body>
+        <form class="password-form">
+            <label for="password" class="input-wrapper">
+                Введіть пароль
+                <input class="input" type="password" id="main-password" name="password" />
+                <div class="error-first">Пароль має містити не менше 6 символів</div>
+                <!-- <div class="error-first">Пароль має містити не менше 6 символів</div> -->
+
+                <i class="fas fa-eye active icon-password" data-click="show"></i>
+                <i class="fas fa-eye-slash icon-password" data-click="hidden"></i>
+            </label>
+            <label for="password-2" class="input-wrapper">
+                Підтвердіть пароль
+                <input class="input" type="password" id="second-password" name="second-password" />
+                <div class="error-second">Потрібно ввести однакові значення</div>
+                <i class="fas fa-eye active icon-password" data-click="show"></i>
+                <i class="fas fa-eye-slash icon-password" data-click="hidden"></i>
+            </label>
+            <button type="submit" class="btn">Підтвердіть</button>
+            <script type="module" src="./index.js"></script>
+        </form>
+    </body>
+</html>

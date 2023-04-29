@@ -1,0 +1,50 @@
+.password-form {
+    display: flex;
+    flex-direction: column;
+}
+.input-wrapper {
+    position: relative;
+    width: 200px;
+    margin-bottom: 24px;
+}
+
+.input-wrapper input {
+    min-width: 120px;
+    padding: 10px;
+}
+
+.input-wrapper i {
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    color: grey;
+}
+
+.btn {
+    width: 150px;
+}
+
+.fa-eye-slash {
+    display: none;
+}
+
+.fa-eye-slash.active {
+    display: block;
+}
+
+.error-first {
+    color: red;
+    display: none;
+}
+
+.error-first.active {
+    display: block;
+}
+
+.error-second {
+    color: red;
+    display: none;
+}
+.error-second.active {
+    display: block;
+}
