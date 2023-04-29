@@ -1,0 +1,195 @@
+.first-background {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/backgrond/section-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.first-container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-bottom: 243px;
+}
+.first-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    display: flex;
+    height: 120px;
+    background: rgba(94, 93, 88, 0.6);
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 305px;
+}
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+.navbar-logo-img {
+    position: relative;
+}
+.navbar-logo-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 48px;
+}
+.navbar-logo-text-Ham {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #18cfab;
+}
+.navbar-menu {
+    display: flex;
+}
+.navbar-logo-icon {
+    width: 58px;
+    height: 67px;
+}
+.navbar-logo-img-word {
+    position: absolute;
+    top: 18px;
+    left: 13px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 31px;
+    color: #ffffff;
+}
+.navbar-menu-list {
+    display: flex;
+    gap: 21.1px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.navbar-menu-item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    fill: currentColor;
+    cursor: pointer;
+}
+.navbar-menu-item:hover {
+    color: #18cfab;
+    transition: 0.5s;
+}
+.icon-1 {
+    width: 21.09px;
+    height: 20px;
+    margin-left: 21.1px;
+    cursor: pointer;
+}
+.first-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 22px;
+    margin: 0 auto;
+    margin-top: 264px;
+    margin-bottom: 129px;
+}
+.first-p1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.wordpress-theme {
+    color: #18cfab;
+}
+.first-p2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 78px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.first-p3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    color: #d4d4d4;
+}
+.first-buttons {
+    display: flex;
+    gap: 26px;
+}
+.first-button-green {
+    position: relative;
+    width: 169px;
+    height: 64px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+.first-button-inner-green {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 169px;
+    height: 64px;
+    background: #18cfab;
+    border-radius: 4px;
+}
+.first-button-inner-green:hover {
+    background: #02b591;
+    transition: 0.4s;
+}
+.first-button-green-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.first-button-blue-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.first-button-blue {
+    position: relative;
+    width: 169px;
+    height: 64px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+.first-button-inner-blue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 169px;
+    height: 64px;
+    background: #00cbf6;
+    border-radius: 4px;
+}
+.first-button-inner-blue:hover {
+    background: #04afd1;
+    transition: 0.4s;
+}

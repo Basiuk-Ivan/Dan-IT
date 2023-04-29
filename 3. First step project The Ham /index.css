@@ -1,0 +1,13 @@
+@import url('./css/reset.css');
+@import url('./css/1-section.css');
+@import url('./css/2-section.css');
+@import url('./css/3-section.css');
+@import url('./css/4-section.css');
+@import url('./css/5-section.css');
+@import url('./css/6-section.css');
+@import url('./css/7-section.css');
+@import url('./css/8-footer.css');
+
+.app {
+    height: 100vh;
+}

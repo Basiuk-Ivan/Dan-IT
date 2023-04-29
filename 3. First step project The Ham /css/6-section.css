@@ -1,0 +1,142 @@
+.sixth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-top: 82px;
+}
+.sixth-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #4e4e4e;
+}
+.sixth-lines {
+    position: relative;
+}
+.sixth-line-1 {
+    border-top: 1px solid #18cfab;
+    width: 76px;
+}
+.sixth-line-2 {
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    border-top: 1px solid #18cfab;
+    width: 78px;
+}
+.sixth-container-img {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    width: 1160px;
+    margin-top: 67px;
+    margin-bottom: 130px;
+}
+.sixth-block-photo {
+    position: relative;
+}
+
+.sixth-block-photo:hover .sixth-block-img-title {
+    color: #18cfab;
+    transition: 0.3s;
+}
+
+.sixth-block-photo:hover .sixth-block-date {
+    background: #18cfab;
+    transition: 0.3s;
+}
+
+.sixth-block-img-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+    margin: 0 auto;
+}
+
+.sixth-block-img-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+    margin: 0 auto;
+}
+
+.sixth-img {
+    width: 263px;
+    height: 208px;
+}
+
+.sixth-block-img-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    background: #f8fcfe;
+}
+.sixth-block-img-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.9885px;
+    line-height: 39px;
+    color: #717171;
+}
+
+.sixth-block-img-info {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.991px;
+    line-height: 39px;
+    color: #777777;
+}
+.sixth-by-admin {
+    padding-right: 25px;
+}
+
+.sixth-by-admin::after {
+    content: '';
+    position: absolute;
+    bottom: 13px;
+    left: 81px;
+    border-left: 1px solid #777777;
+    width: 13px;
+    height: 13px;
+}
+
+.sixth-block-date {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 70px;
+    height: 68px;
+    background: #203e38;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.date-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.date-month {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+}

@@ -1,0 +1,22 @@
+.footer-background {
+    height: 121px;
+    background: #22353f;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-top: 48px;
+}
+.footer-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #aeaeae;
+}
+.footer-theHam {
+    color: #18cfab;
+}
