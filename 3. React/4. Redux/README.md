@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Завдання
+
+Підключіти бібліотеку Redux.
+
+Для цього необхідно доповнити проект, створений у попередньому домашньому завданні homework3.
+
+## Технічні вимоги:
+
+-   Підключити бібліотеки redux, react-redux и redux-thunk.
+-   Після отримання масиву даних за допомогою AJAX запиту, записати їх у redux store.
+-   При виведенні компонентів на сторінку – дані брати з redux store.
+-   При відкритті будь-яких молальних вікон - інформація про те, чи відкрито зараз модальне вікно, повинна зберігатися в redux store.
+-   Всі action-и повинні бути виконані у вигляді функцій використовуючи функціонал redux-thunk.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
