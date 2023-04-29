@@ -1,0 +1,93 @@
+@import '../../mixins.scss';
+
+.form {
+    margin-bottom: 60px;
+}
+
+.formBody {
+    display: flex;
+}
+
+.formPerson {
+    flex: 1 1 33.333%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+
+    input:not(:first-of-type) {
+        margin-top: 30px;
+    }
+}
+
+.formAdress {
+    flex: 1 1 33.333%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+
+    input:not(:first-of-type) {
+        margin-top: 30px;
+    }
+}
+
+.formButton {
+    flex: 1 1 33.333%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+    gap: 20px;
+}
+
+.title {
+    color: #474a51;
+    letter-spacing: 0.02em;
+    margin-bottom: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.input {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.priceTogether {
+    font-size: 22px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #474a51;
+}
+
+.totalPrice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.priceAll {
+    display: flex;
+    gap: 3px;
+}
+
+.buttonCheckout {
+    height: 50px;
+    padding: 15px;
+    color: #474a51;
+    text-align: center;
+    font-size: 15px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #014533;
+        color: #fff;
+        transition: all 0.3s;
+    }
+
+    @include buttonRadius;
+}
+
+.error {
+    color: red;
+}

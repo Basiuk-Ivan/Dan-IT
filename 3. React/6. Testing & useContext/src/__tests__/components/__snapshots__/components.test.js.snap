@@ -1,0 +1,842 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot Components snapshot Footer 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="footer"
+      >
+        <div
+          class="footerContact"
+        >
+          <div
+            class="footerLogo"
+          >
+            <img
+              alt="footerLogo"
+              src="footerLogo.svg"
+            />
+          </div>
+          <div
+            class="footerContacts"
+          >
+            <p>
+              Потрібна допомога з замовленням?
+            </p>
+            <p>
+              <a
+                href="tel:+380993242484"
+              >
+                +380 99 324 24 84
+              </a>
+            </p>
+            <p>
+              <a
+                href="mailto:info@loylen.com"
+              >
+                info@loylen.com
+              </a>
+            </p>
+          </div>
+          <div
+            class="footerDesk"
+          >
+            <p>
+              2021 Інтернет-магазин LOYLEN
+            </p>
+            <p>
+              Всі права захищені
+            </p>
+            <p>
+              Розробка дизайну
+            </p>
+          </div>
+        </div>
+        <div
+          class="footerInfo"
+        >
+          <div
+            class="footerInfoWrapp"
+          >
+            <div
+              class="footerInfoCatalog"
+            >
+              <div
+                class="footerInfoCatalogTitle"
+              >
+                Каталог
+              </div>
+              <ul
+                class="footerInfoText"
+              >
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Новинки
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Розпродаж
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Готові зразки
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Всі товари
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="footerInfoCustomer"
+            >
+              <div
+                class="footerInfoCatalogTitle"
+              >
+                Покупець
+              </div>
+              <ul
+                class="footerInfoText"
+              >
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Особистий кабінет
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Таблиця розмірів
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Доставка і оплата
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Повернення
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="footerInfoAbout"
+            >
+              <div
+                class="footerInfoCatalogTitle"
+              >
+                Про нас
+              </div>
+              <ul
+                class="footerInfoText"
+              >
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Про бренд
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Контакти
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Оферта
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                  >
+                    Політика
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="footer"
+    >
+      <div
+        class="footerContact"
+      >
+        <div
+          class="footerLogo"
+        >
+          <img
+            alt="footerLogo"
+            src="footerLogo.svg"
+          />
+        </div>
+        <div
+          class="footerContacts"
+        >
+          <p>
+            Потрібна допомога з замовленням?
+          </p>
+          <p>
+            <a
+              href="tel:+380993242484"
+            >
+              +380 99 324 24 84
+            </a>
+          </p>
+          <p>
+            <a
+              href="mailto:info@loylen.com"
+            >
+              info@loylen.com
+            </a>
+          </p>
+        </div>
+        <div
+          class="footerDesk"
+        >
+          <p>
+            2021 Інтернет-магазин LOYLEN
+          </p>
+          <p>
+            Всі права захищені
+          </p>
+          <p>
+            Розробка дизайну
+          </p>
+        </div>
+      </div>
+      <div
+        class="footerInfo"
+      >
+        <div
+          class="footerInfoWrapp"
+        >
+          <div
+            class="footerInfoCatalog"
+          >
+            <div
+              class="footerInfoCatalogTitle"
+            >
+              Каталог
+            </div>
+            <ul
+              class="footerInfoText"
+            >
+              <li>
+                <a
+                  href="#"
+                >
+                  Новинки
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                >
+                  Розпродаж
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                >
+                  Готові зразки
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                >
+                  Всі товари
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="footerInfoCustomer"
+          >
+            <div
+              class="footerInfoCatalogTitle"
+            >
+              Покупець
+            </div>
+            <ul
+              class="footerInfoText"
+            >
+              <li>
+                <a
+                  href="#"
+                >
+                  Особистий кабінет
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                >
+                  Таблиця розмірів
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                >
+                  Доставка і оплата
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                >
+                  Повернення
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="footerInfoAbout"
+          >
+            <div
+              class="footerInfoCatalogTitle"
+            >
+              Про нас
+            </div>
+            <ul
+              class="footerInfoText"
+            >
+              <li>
+                <a
+                  href="#"
+                >
+                  Про бренд
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                >
+                  Контакти
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                >
+                  Оферта
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                >
+                  Політика
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`snapshot Components snapshot Header 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="header"
+      >
+        <div
+          class="headerMenu"
+        >
+          <ul
+            class="headerMenuList"
+          >
+            <li
+              class="headerMenuItem"
+            >
+              <a
+                class="headerMenuLink"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li
+              class="headerMenuItem"
+            >
+              <a
+                class="headerMenuLink"
+                href="#"
+              >
+                LookBook
+              </a>
+            </li>
+            <li
+              class="headerMenuItem"
+            >
+              <a
+                class="headerMenuLink"
+                href="#"
+              >
+                Про бренд
+              </a>
+            </li>
+            <li
+              class="headerMenuItem"
+            >
+              <a
+                class="headerMenuLink"
+                href="#"
+              >
+                Інформація
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="headerLogo"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="logo"
+              src="logo.svg"
+            />
+          </a>
+        </div>
+        <div
+          class="headerInfo"
+        >
+          <div
+            class="headerSearch"
+          >
+            <img
+              alt="search"
+              src="search.svg"
+            />
+          </div>
+          <div
+            class="headerAccount"
+          >
+            <img
+              alt="account"
+              src="account.svg"
+            />
+          </div>
+          <div
+            class="headerFavourite"
+          >
+            <a
+              href="/favourite"
+            >
+              <img
+                alt="vafourite"
+                src="favourite.svg"
+              />
+            </a>
+            0
+          </div>
+          <div
+            class="cart"
+          >
+            <a
+              href="/cart"
+            >
+              <img
+                alt="cart"
+                src="cart.svg"
+              />
+            </a>
+            0
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="header"
+    >
+      <div
+        class="headerMenu"
+      >
+        <ul
+          class="headerMenuList"
+        >
+          <li
+            class="headerMenuItem"
+          >
+            <a
+              class="headerMenuLink"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            class="headerMenuItem"
+          >
+            <a
+              class="headerMenuLink"
+              href="#"
+            >
+              LookBook
+            </a>
+          </li>
+          <li
+            class="headerMenuItem"
+          >
+            <a
+              class="headerMenuLink"
+              href="#"
+            >
+              Про бренд
+            </a>
+          </li>
+          <li
+            class="headerMenuItem"
+          >
+            <a
+              class="headerMenuLink"
+              href="#"
+            >
+              Інформація
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="headerLogo"
+      >
+        <a
+          href="/"
+        >
+          <img
+            alt="logo"
+            src="logo.svg"
+          />
+        </a>
+      </div>
+      <div
+        class="headerInfo"
+      >
+        <div
+          class="headerSearch"
+        >
+          <img
+            alt="search"
+            src="search.svg"
+          />
+        </div>
+        <div
+          class="headerAccount"
+        >
+          <img
+            alt="account"
+            src="account.svg"
+          />
+        </div>
+        <div
+          class="headerFavourite"
+        >
+          <a
+            href="/favourite"
+          >
+            <img
+              alt="vafourite"
+              src="favourite.svg"
+            />
+          </a>
+          0
+        </div>
+        <div
+          class="cart"
+        >
+          <a
+            href="/cart"
+          >
+            <img
+              alt="cart"
+              src="cart.svg"
+            />
+          </a>
+          0
+        </div>
+      </div>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`snapshot Components snapshot LookBook 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="lookBook"
+      >
+        <div
+          class="lookBookImg"
+        >
+          <img
+            alt="lookBook"
+            src="lookBook.png"
+          />
+        </div>
+        <div
+          class="lookBookInfo"
+        >
+          <div
+            class="lookBookInfoWrapp"
+          >
+            <div
+              class="lookBookTitle"
+            >
+              LOOKBOOK
+            </div>
+            <div
+              class="lookBookText"
+            >
+              При створені коллекцій ми враховуємо, щоб всі вироби поєднувались. Це дозволяє підібрати повний образ на всі випадки життя.
+            </div>
+            <button
+              class="lookBookButton"
+            >
+              Дивитись
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="lookBook"
+    >
+      <div
+        class="lookBookImg"
+      >
+        <img
+          alt="lookBook"
+          src="lookBook.png"
+        />
+      </div>
+      <div
+        class="lookBookInfo"
+      >
+        <div
+          class="lookBookInfoWrapp"
+        >
+          <div
+            class="lookBookTitle"
+          >
+            LOOKBOOK
+          </div>
+          <div
+            class="lookBookText"
+          >
+            При створені коллекцій ми враховуємо, щоб всі вироби поєднувались. Це дозволяє підібрати повний образ на всі випадки життя.
+          </div>
+          <button
+            class="lookBookButton"
+          >
+            Дивитись
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
