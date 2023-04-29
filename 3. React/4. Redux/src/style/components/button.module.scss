@@ -1,0 +1,63 @@
+@import '../mixins.scss';
+
+.button {
+   width: 100%;
+   height: 50px;
+   color: #474a51;
+   text-align: center;
+   margin-top: 20px;
+   cursor: pointer;
+   font-size: 16px;
+   @include buttonRadius;
+
+   &:hover {
+       background-color: #014533;
+       color: #fff;
+       transition: all 0.3s;
+   }
+}
+
+.iconClose {
+   width: 25px;
+   height: 2px;
+   background-color: #fff;
+   transform: rotate(45deg);
+   position: relative;
+   top: 11px;
+
+   &::after {
+       position: absolute;
+       content: '';
+       top: 0;
+       width: 25px;
+       height: 2px;
+       transform: rotate(270deg);
+       background-color: #fff;
+       cursor: pointer;
+   }
+}
+
+.modalActions {
+   display: flex;
+   gap: 15px;
+   margin-top: 20px;
+
+   button {
+       width: 110px;
+       height: 45px;
+       font-size: 15px;
+       line-height: 130%;
+       letter-spacing: 0.02em;
+       color: #474a51;
+   }
+}
+
+.modalTextBlack {
+   font-size: 20px;
+   margin-top: 20px;
+   line-height: 130%;
+   letter-spacing: 0.02em;
+   text-transform: uppercase;
+   color: #474a51;
+   text-align: center;
+}
