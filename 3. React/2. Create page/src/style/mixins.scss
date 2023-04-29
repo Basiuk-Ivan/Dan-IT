@@ -1,0 +1,29 @@
+@mixin modalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 10px 10px 0 0;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    background-color: #007a5a;
+}
+
+@mixin modalBody {
+    width: 450px;
+    border-radius: 10px;
+}
+
+@mixin modalText {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@mixin buttonRadius {
+    box-shadow: 0px 2px 4px rgba(136, 144, 194, 0.2), 0px 5px 15px rgba(37, 44, 97, 0.15);
+    border-radius: 4px;
+}

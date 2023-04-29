@@ -1,0 +1,159 @@
+@import 'mixins.scss';
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.productItem {
+    width: 400px;
+    height: 677px;
+    position: relative;
+}
+
+.productLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productImg {
+    img {
+        width: 400px;
+        height: 600px;
+    }
+}
+
+.productIcon {
+    position: absolute;
+    right: 3px;
+    bottom: 46px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    filter: invert(200%) sepia(0%) saturate(0%) hue-rotate(40deg) brightness(100%) contrast(100%);
+
+    &:hover {
+        filter: invert(20%) sepia(51%) saturate(7402%) hue-rotate(353deg) brightness(92%) contrast(105%);
+    }
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+
+    &.active {
+        filter: invert(20%) sepia(51%) saturate(7402%) hue-rotate(353deg) brightness(92%) contrast(105%);
+    }
+}
+
+.producrDesk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productsTitle {
+    color: #474a51;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.productInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 90px;
+    width: 1280px;
+}
+
+.productTitle {
+    font-size: 24px;
+    line-height: 130%;
+    color: #474a51;
+}
+
+.productPrice {
+    font-size: 18px;
+    line-height: 130%;
+    color: #474a51;
+}
+
+.productArticle {
+    color: #9c9c9c;
+    font-size: 12px;
+}
+
+// ================== Button =================== //
+
+.button {
+    width: 100%;
+    height: 50px;
+    color: #474a51;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    @include buttonRadius;
+
+    &:hover {
+        background-color: #014533;
+        color: #fff;
+        transition: all 0.3s;
+    }
+}
+
+.iconClose {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: relative;
+    top: 11px;
+
+    &::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        width: 25px;
+        height: 2px;
+        transform: rotate(270deg);
+        background-color: #fff;
+        cursor: pointer;
+    }
+}
+
+.modalActions {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+
+    button {
+        width: 110px;
+        height: 45px;
+        font-size: 15px;
+        line-height: 130%;
+        letter-spacing: 0.02em;
+        color: #474a51;
+    }
+}
+
+.modalTextBlack {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #474a51;
+    text-align: center;
+}
