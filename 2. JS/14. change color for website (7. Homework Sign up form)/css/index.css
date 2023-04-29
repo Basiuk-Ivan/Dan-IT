@@ -1,0 +1,408 @@
+@import url('./reset.css');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.body-gray {
+    --header-color: gray;
+    --wrapper-color: gray;
+    --inpyt-color: gray;
+}
+
+.body-gray .header {
+    color: var(--header-color);
+}
+
+.body-gray .wrapper {
+    background-color: var(--wrapper-color);
+}
+
+.body-gray .input {
+    background-color: var(--inpyt-color);
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 58px;
+    padding: 0 79px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    color: #fff;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon-1 {
+    width: 21px;
+    height: 24px;
+}
+
+.icon-2 {
+    width: 23px;
+    height: 23px;
+    margin: 0 24px 0 27px;
+}
+
+.icon-3 {
+    width: 23px;
+    height: 24px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    position: relative;
+}
+
+.text::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 19px;
+    top: -2px;
+    left: -27px;
+    border-right: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.9);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.logo:hover {
+    color: #3cb878;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #3cb878;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.text-hover:hover {
+    color: #3cb878;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main {
+    height: calc(100% - 58px);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.changs-color-on-page {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 160px;
+    height: 48px;
+    text-align: center;
+    font-size: 15px;
+    color: #f2f2f2;
+    border-radius: 4px;
+    background: #70bc95;
+}
+.changs-color-on-page:hover {
+    background-color: #049c4e;
+    transition: 0.4s;
+}
+
+.wrapper {
+    width: 444px;
+    height: 584px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
+    position: relative;
+}
+
+.green-block {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0px;
+    top: 29px;
+    background: #3cb878;
+}
+
+.top-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 59px 15px 61px;
+}
+
+.sign-up {
+    font-size: 20px;
+    color: #434343;
+}
+
+.log-in {
+    font-size: 14px;
+    color: #3cb878;
+}
+
+.log-in:hover {
+    text-decoration: underline;
+    color: #01813f;
+    transition: 0.4s;
+}
+
+.top-button {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 48px;
+    border-radius: 4px;
+    background: #305db8;
+}
+
+.facebook:hover {
+    background-color: #022263;
+    transition: 0.4s;
+}
+
+.img-fb {
+    width: 24px;
+    height: 24px;
+    margin-right: 32px;
+    position: relative;
+}
+
+.text-fb {
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+}
+
+.text-fb:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    border-right: 1px solid #0a162f;
+    height: 28px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    top: -6px;
+    left: -18px;
+}
+
+.google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 48px;
+    border-radius: 4px;
+    background: #df4a32;
+}
+
+.google:hover {
+    background-color: #ab1f09;
+    transition: 0.4s;
+}
+
+.img-google {
+    width: 30px;
+    height: 19px;
+    margin-right: 38px;
+}
+
+.text-google {
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+}
+
+.text-google:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    border-right: 1px solid #0a162f;
+    height: 28px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    top: -6px;
+    left: -30px;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+    color: #848484;
+    position: relative;
+}
+
+.or:before {
+    content: '';
+    position: absolute;
+    width: 152px;
+    height: 0px;
+    border: 1px solid #f2f2f2;
+    top: 7px;
+    left: 58px;
+}
+
+.or:after {
+    content: '';
+    position: absolute;
+    width: 152px;
+    height: 0px;
+    border: 1px solid #f2f2f2;
+    top: 7px;
+    right: 58px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 12px;
+}
+
+.label {
+    width: 324px;
+    height: 44px;
+    border-radius: 4px;
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+
+.input:focus {
+    background: #ffffff;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    border-radius: 4px;
+    border: none;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    top: 0px;
+    left: -38px;
+    margin-top: -3px;
+    margin-bottom: 5px;
+}
+
+.checkbox-green:hover {
+    text-decoration: underline;
+    color: #01813f;
+    transition: 0.4s;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+.check-label {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.icon-check {
+    width: 14px;
+    height: 13.5px;
+    stroke: #3cb878;
+    display: none;
+}
+
+.checkbox-hidden:checked ~ .checkbox .icon-check {
+    display: block;
+}
+
+.check-label:hover .icon-check {
+    stroke: #01813f;
+}
+
+.checkbox-text {
+    color: #434343;
+}
+
+.checkbox-green {
+    color: #3cb878;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 324px;
+    height: 46px;
+    background: rgba(60, 184, 120, 0.8);
+    border-radius: 4px;
+}
+
+.button {
+    background: none;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.form-actions:hover {
+    background: #01813f;
+    transition: 0.5s;
+}
