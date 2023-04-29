@@ -1,4 +1,35 @@
-# Getting Started with Create React App
+# Завдання
+
+Створити новий React додаток з двома модальними вікнами.
+
+## Технічні вимоги:
+
+-   Створити програму за допомогою create-react-app.
+-   Створити на головній сторінці 2 кнопки з текстом Open first modal та Open second modal.
+-   По кліку на кожну з кнопок має відкриватись відповідне модальне вікно.
+-   Створити компонент Button який повинен мати такі властивості, що передаються з батьківського компонента:
+-   Колір фону (властивість backgroundColor)
+-   Текст (властивість text)
+    Функція при натисканні (властивість onClick)
+-   Створити компонент Modal який повинен мати такі властивості, що передаються з батьківського компонента:
+    Т- екст заголовка модального вікна (властивість header)
+    Ч- и повинен бути хрестик для закриття вікна праворуч вгорі (boolean властивість closeButton, значення true/false)
+-   Основний текст модального вікна, який буде показаний у його центральній частині (властивість text)
+-   Кнопки, що знаходяться у нижній частині модального вікна, передані у вигляді коду у форматі JSX (властивість actions)
+-   При відкритому модальному вікні частина сторінки, що залишилася, повинна бути затемнена за допомогою темного напівпрозорого фону.
+-   Модальне вікно має закриватися при натисканні області зовні його контенту.
+-   Стилізувати кнопки та модальні вікна за допомогою SCSS
+-   Кнопки мають бути різних кольорів
+-   Модальні вікна мають містити різний текст.
+-   Дизайн модального вікна дається в PSD файлі.
+-   Одне модальне вікно зробити як у дизайні. Для другого потрібно використовувати інший текст та інші кнопки (виберіть будь-які).
+-   Усі компоненти мають бути створені у вигляді ES6 класів.
+
+### Необов'язкове завдання підвищеної складності
+
+    Замість SCSS стилізувати компоненти за допомогою JSS або Styled Components
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -38,33 +69,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
