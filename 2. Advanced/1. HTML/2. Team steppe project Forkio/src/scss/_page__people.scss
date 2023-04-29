@@ -1,0 +1,153 @@
+@use 'variables';
+@use 'mixins';
+
+.people {
+    background-image: url('../img/page__people/bg/testmonials-bg\ 1.jpg');
+    background-size: cover;
+
+    @media (min-width: 1527px) {
+        background-position: 50% 100%;
+    }
+
+    @media (max-width: 1199px) {
+        background-position: 50% 100%;
+    }
+}
+
+// ========================= //
+
+@media (max-width: 1199px) {
+    .people__container {
+        max-width: 731px;
+    }
+}
+
+@media (max-width: 767px) {
+    .people__container {
+        max-width: 299px;
+    }
+}
+
+// ========================= //
+
+.people__wrapp {
+    padding: 108px 0px 20px 0px;
+    position: relative;
+    @include flex-column;
+    align-items: center;
+
+    @media (max-width: 1199px) {
+        padding: 85px 0px 30px 0px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 57px 0px 36px 0px;
+    }
+}
+
+.people__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: $primary-color;
+    margin-bottom: 82px;
+    text-align: center;
+
+    @media (max-width: 1199px) {
+        font-size: 42px;
+        line-height: 44px;
+        margin-bottom: 88px;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 53px;
+    }
+}
+
+// ============================= //
+
+.people__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 110px;
+    row-gap: 108px;
+    justify-content: center;
+
+    @media (max-width: 1199px) {
+        column-gap: 100px;
+        row-gap: 54px;
+    }
+
+    @media (max-width: 767px) {
+        row-gap: 41px;
+    }
+}
+
+.people__block {
+    @include flex-column;
+    align-items: center;
+    max-width: 315px;
+    row-gap: 30px;
+
+    transform: translate(0px, -120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+
+    &._active {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+
+    @media (max-width: 767px) {
+        row-gap: 25px;
+    }
+}
+
+.block-people__text {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: $primary-color;
+    text-align: center;
+}
+
+.block-people__logo {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+// ============================= //
+
+.people__footer-text {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #a291a5;
+    text-align: center;
+    margin-top: 102px;
+    max-width: 887px;
+    text-align: center;
+
+    &::after {
+        position: absolute;
+        content: '';
+        bottom: -18px;
+        left: 6.6%;
+        width: 88%;
+        height: 5%;
+        background: #645766;
+    }
+
+    @media (max-width: 1199px) {
+        margin-top: 57px;
+    }
+}

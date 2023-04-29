@@ -1,0 +1,153 @@
+/* REVOLUTIONARY */
+
+.revolutionary__title {
+    transform: translate(25%, 0);
+    opacity: 0;
+
+    &._active {
+        transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+}
+
+.revolutionary__slogan {
+    transform: translate(-25%, 0);
+    opacity: 0;
+
+    &._active {
+        transition: opacity 1s ease-out 0.25s, transform 1s ease-out 0.25s;
+    }
+}
+
+.watching,
+.rating,
+.fork {
+    opacity: 0;
+    transform: translate(0, 300%);
+}
+
+.watching._active {
+    transition: opacity .7s ease-out .5s, transform .7s ease-out .5s;
+}
+
+.rating._active {
+    transition: opacity .7s ease-out .7s, transform .7s ease-out .7s;
+}
+
+.fork._active {
+    transition: opacity .7s ease-out .9s, transform .7s ease-out .9s;
+}
+
+
+// /* WHAT YOU GET */
+
+
+.advantages-item__icon,
+.advantages-item__content {
+    transform: translate(-100%, 0);
+    opacity: 0;
+}
+
+.grid_1-1._active,
+.grid_1-2._active {
+    transition: opacity .7s ease-out 0.2s, transform .7s ease-out;
+
+    @media (max-width: 768px) {
+        transition-delay: 0;
+    }
+}
+
+.grid_2-1._active,
+.grid_2-2._active {
+    transition: opacity .7s ease-out 0.4s, transform .7s ease-out .2s;
+
+    @media (max-width: 768px) {
+        transition-delay: 0;
+    }
+}
+
+.grid_3-1._active,
+.grid_3-2._active {
+    transition: opacity .7s ease-out 0.6s, transform .7s ease-out .4s;
+
+    @media (max-width: 768px) {
+        transition-delay: 0;
+    }
+}
+
+.grid_4-1._active,
+.grid_4-2._active {
+    transition: opacity .7s ease-out .8s, transform .7s ease-out .6s;
+
+    @media (max-width: 768px) {
+        transition-delay: 0;
+    }
+}
+
+.example__screen {
+    transform: translate(10%, 0);
+
+    &._active {
+        transition: opacity 0.3s ease-out, transform 1.2s ease-out;
+    }
+}
+
+
+// PRICING
+
+.pricing__card {
+    transform: translate(300%, 0);
+    opacity: 0;
+    position: relative;
+
+    @media (max-width: 768px) {
+        &:nth-child(2n+1) {
+            transform: translate(100%, 0);
+            opacity: 0;
+        }
+
+        &:nth-child(2n) {
+            transform: translate(-100%, 0);
+            opacity: 0;
+        }
+    }
+}
+
+.pricing__card._active:nth-child(1) {
+    transition: opacity 1s ease-out 0.2s, transform 1s ease-out;
+
+    @media (max-width: 768px) {
+        transition-delay: 0;
+    }
+}
+
+.pricing__card._active:nth-child(2) {
+    transition: opacity 1s ease-out 0.4s, transform 1s ease-out 0.2s;
+
+    @media (max-width: 768px) {
+        transition-delay: 0;
+    }
+}
+
+.pricing__card._active:nth-child(3) {
+    transition: opacity 1s ease-out 0.6s, transform 1s ease-out 0.4s;
+
+    @media (max-width: 768px) {
+        transition-delay: 0;
+    }
+}
+
+.pricing__card._active:nth-child(4) {
+    transition: opacity 1s ease-out 0.8s, transform 1s ease-out 0.6s;
+
+    @media (max-width: 768px) {
+        transition-delay: 0;
+    }
+}
+
+
+._active,
+.pricing__card._active:nth-child(n),
+.pricing__card._active {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+}

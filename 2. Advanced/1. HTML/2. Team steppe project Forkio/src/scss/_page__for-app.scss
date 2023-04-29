@@ -1,0 +1,105 @@
+@use 'variables';
+@use 'mixins';
+
+.app {
+    position: relative;
+}
+
+.app__wrapper {
+    @include flex-column;
+    align-items: center;
+    padding: 183px 0px 459px 0px;
+    position: relative;
+}
+
+.app__title {
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 82px;
+    color: $primary-color;
+    margin-bottom: 19px;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+
+    &._active {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+
+    @media (max-width: 1199px) {
+        font-size: 72px;
+        line-height: 72px;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 48px;
+        line-height: 48px;
+    }
+}
+
+// ================================== //
+
+.app__sub-title {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: $menu-color;
+    margin-bottom: 19px;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 1s ease 0.4s;
+
+    &._active {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+
+    @media (max-width: 1199px) {
+        text-align: center;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    @media (max-width: 767px) {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
+}
+
+// ================================== //
+
+.app__text {
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #848e97;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.8s;
+
+    &._active {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+
+    @media (max-width: 1199px) {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+.app__main-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
