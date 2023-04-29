@@ -1,0 +1,21 @@
+.galleryWrapp {
+    position: relative;
+}
+
+.galleryPhotoMainWrapp {
+    position: relative;
+}
+
+.galleryPhotoMain {
+    width: 100%;
+}
+
+.galleryBlock {
+    display: flex;
+    object-fit: cover;
+
+    img {
+        height: 770px;
+        width: 100%;
+    }
+}
