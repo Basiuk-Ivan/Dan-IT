@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin modalText {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh;
+}
+
+.modalTextOrange {
+    @include modalText;
+    color: #ffffff;
+}
+
+.modalTextBlack {
+    @include modalText;
+    color: #000;
+}
+
+.iconClose {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: relative;
+    top: 11px;
+
+    &::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        width: 25px;
+        height: 2px;
+        transform: rotate(270deg);
+        background-color: #fff;
+        cursor: pointer;
+    }
+}
+
+.modalActions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
