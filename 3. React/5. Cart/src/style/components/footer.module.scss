@@ -1,0 +1,88 @@
+.footer {
+    height: 556px;
+    background: #eeeeee;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 60px;
+}
+
+.footerContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 50%;
+    padding-left: 60px;
+}
+
+.footerLogo {
+    margin-bottom: 18px;
+}
+
+.footerContacts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 40px;
+
+    p {
+        font-size: 24px;
+        line-height: 130%;
+        color: #474a51;
+
+        a {
+            color: #474a51;
+        }
+    }
+}
+
+.footerDesk {
+    font-size: 14px;
+    line-height: 130%;
+    color: #474a51;
+}
+
+.footerInfo {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerInfoWrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footerInfoCatalogTitle {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #474a51;
+}
+
+.footerInfoText {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    li {
+        font-size: 14px;
+        line-height: 130%;
+        color: #474a51;
+
+        a {
+            color: #474a51;
+        }
+
+        &:hover {
+            a {
+                cursor: pointer;
+                border-bottom: 1px solid #474a51;
+            }
+        }
+    }
+}

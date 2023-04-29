@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Костюм чорний",
+        "price": 1900,
+        "currency": "грн",
+        "src": "./img/img-1.png",
+        "article": 12365
+    },
+    {
+        "name": "Футболка бежева",
+        "price": 800,
+        "currency": "грн",
+        "src": "./img/img-2.png",
+        "article": 12368
+    },
+    {
+        "name": "Гольф білий",
+        "price": 1200,
+        "currency": "грн",
+        "src": "./img/img-3.png",
+        "article": 12369
+    },
+    {
+        "name": "Костюм чорний",
+        "price": 2500,
+        "currency": "грн",
+        "src": "./img/img-4.png",
+        "article": 12371
+    },
+    {
+        "name": "Сукня",
+        "price": 1500,
+        "currency": "грн",
+        "src": "./img/img-5.png",
+        "article": 12375
+    },
+    {
+        "name": "Костюм",
+        "price": 2800,
+        "currency": "грн",
+        "src": "./img/img-6.png",
+        "article": 12377
+    },
+    {
+        "name": "Гольф",
+        "price": 900,
+        "currency": "грн",
+        "src": "./img/img-7.jpg",
+        "article": 12378
+    },
+    {
+        "name": "Рубашка біла",
+        "price": 1200,
+        "currency": "грн",
+        "src": "./img/img-8.jpg",
+        "article": 12379
+    },
+    {
+        "name": "Гольф помаранчевий",
+        "price": 1300,
+        "currency": "грн",
+        "src": "./img/img-9.jpg",
+        "article": 12382
+    },
+    {
+        "name": "Купальник",
+        "price": 1300,
+        "currency": "грн",
+        "src": "./img/img-10.png",
+        "article": 12383
+    },
+    {
+        "name": "Футболка USA",
+        "price": 700,
+        "currency": "грн",
+        "src": "./img/img-11.png",
+        "article": 12385
+    },
+    {
+        "name": "Кофта",
+        "price": 1400,
+        "currency": "грн",
+        "src": "./img/img-12.png",
+        "article": 12387
+    }
+]

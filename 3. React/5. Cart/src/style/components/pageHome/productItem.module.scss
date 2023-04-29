@@ -1,0 +1,104 @@
+.productItemHome {
+    width: 400px;
+    position: relative;
+}
+
+.productItemCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    position: relative;
+    margin: 0 100px;
+}
+
+.productImgHome {
+    img {
+        width: 400px;
+        height: 600px;
+    }
+}
+
+.productImgCart {
+    img {
+        width: 190px;
+        height: 200px;
+        object-fit: contain;
+    }
+}
+
+.closeIcon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+
+    filter: invert(26%) sepia(13%) saturate(312%) hue-rotate(184deg) brightness(100%) contrast(89%);
+
+    &:hover {
+        filter: invert(27%) sepia(55%) saturate(2049%) hue-rotate(140deg) brightness(96%) contrast(101%);
+    }
+}
+
+.productIcon {
+    position: absolute;
+    right: 3px;
+    bottom: 110px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    filter: invert(200%) sepia(0%) saturate(0%) hue-rotate(40deg) brightness(100%) contrast(100%);
+
+    &:hover {
+        filter: invert(20%) sepia(51%) saturate(7402%) hue-rotate(353deg) brightness(92%) contrast(105%);
+    }
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+
+    &.active {
+        filter: invert(20%) sepia(51%) saturate(7402%) hue-rotate(353deg) brightness(92%) contrast(105%);
+    }
+}
+
+.producrDesk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productTitle {
+    font-size: 24px;
+    line-height: 130%;
+    color: #474a51;
+}
+
+.productTitleCart {
+    font-size: 18px;
+    color: #474a51;
+}
+
+.productPrice {
+    display: flex;
+    gap: 4px;
+    font-size: 18px;
+    line-height: 130%;
+    color: #474a51;
+}
+
+.productPriceCart {
+    display: flex;
+    gap: 4px;
+    font-size: 18px;
+    line-height: 130%;
+    color: #474a51;
+}
+
+.productArticle {
+    color: #9c9c9c;
+    font-size: 12px;
+}
