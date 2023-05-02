@@ -1,4 +1,4 @@
-# Cтеп проект [Forkio](https://basiuk-ivan.github.io/HTML-Scss-JS-Forkio/)
+# Cтеп проект [Forkio](https://ivan-bass.github.io/Forkio/)
 
 ## Учасники:
 
